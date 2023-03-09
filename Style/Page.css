@@ -1,4 +1,9 @@
 /*-------------------------------------------------INICIO BACKGROUND------------------------------------------------------------------------------------*/
+.logo-name{
+    width: 50px;
+    margin: 10px;
+}
+
 .background{
     background-color: orange;
     height: 100vh;
@@ -21,6 +26,7 @@
     .background{
         background-color: orange;
         padding: 20px;
+        height: auto;
     }
 }
 @media (max-width: 800px)
@@ -34,6 +40,7 @@
     .background{
         background-color: orange;
         padding: 20px;
+        height: auto;
     }
 }
 @media (max-width: 600px)
@@ -49,6 +56,10 @@
         padding: 20px;
         height: auto;
     }
+    .logo-name{
+        width: 50px;
+    }
+
 }
 @media (max-width: 480px)
 {
@@ -63,6 +74,9 @@
         padding: 20px;
         height: auto;
     }
+    .logo-name{
+        width: 50px;
+    }
 }
 @media (max-width: 320px)
 {
@@ -76,6 +90,9 @@
         background-color: orange;
         padding: 20px;
         height: auto;
+    }
+    .logo-name{
+        width: 50px;
     }
 }
 
@@ -199,6 +216,7 @@
   .Avatar-master{
     display: flex !important;
     flex-direction: column !important;
+    height: auto;
    }
 }
 @media (max-width: 800px)
@@ -208,5 +226,6 @@
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
+    height: auto;
    }
 }
