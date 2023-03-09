@@ -1,0 +1,42 @@
+
+.footer{ 
+
+    background-color: orange;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 38%);
+}
+.text-alinhaaa{
+    text-align: center;
+}
+.EVOLVE {
+  background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgba(134, 100, 35, 0.849), rgb(10, 10, 10));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1200px)
+{
+
+
+}
+@media (max-width: 800px)
+{
+  
+}
+@media (max-width: 600px)
+{
+   
+}
+@media (max-width: 480px)
+{
+    
+}
+@media (max-width: 320px)
+{
+   
+}

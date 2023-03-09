@@ -1,0 +1,85 @@
+.widh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-form{ 
+
+    width: 75%;
+    background-color: orange;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 38%);
+}
+.inputs-row{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+}
+.dar-opiniao{
+    border-radius: 5px;
+    background-color: #413B52;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+}
+.btnnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input1{
+    width: 100%; 
+    margin-right: 5px;
+}
+.input2{
+    width: 100%; 
+    margin-left: 5px;
+}
+@media (max-width: 1200px)
+{
+
+
+}
+@media (max-width: 800px)
+{
+    .inputs-row{
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+    }
+}
+@media (max-width: 600px)
+{
+    .inputs-row{
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+    }
+}
+@media (max-width: 480px)
+{
+    .inputs-row{
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+    }
+}
+@media (max-width: 320px)
+{
+    .inputs-row{
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+    }
+}

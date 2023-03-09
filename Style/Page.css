@@ -1,0 +1,212 @@
+/*-------------------------------------------------INICIO BACKGROUND------------------------------------------------------------------------------------*/
+.background{
+    background-color: orange;
+    height: 100vh;
+}
+
+.mobile{
+    display: none;
+}
+.desktop {
+    display: block;
+}
+@media (max-width: 1200px)
+{
+    .desktop{
+        display: none !important;
+    }
+    .mobile {
+        display: block;
+    }
+    .background{
+        background-color: orange;
+        padding: 20px;
+    }
+}
+@media (max-width: 800px)
+{
+    .desktop{
+        display: none !important;
+    }
+    .mobile {
+        display: block;
+    }
+    .background{
+        background-color: orange;
+        padding: 20px;
+    }
+}
+@media (max-width: 600px)
+{
+    .desktop{
+        display: none !important;
+    }
+    .mobile {
+        display: block;
+    }
+    .background{
+        background-color: orange;
+        padding: 20px;
+        height: auto;
+    }
+}
+@media (max-width: 480px)
+{
+    .desktop{
+        display: none !important;
+    }
+    .mobile {
+        display: block;
+    }
+    .background{
+        background-color: orange;
+        padding: 20px;
+        height: auto;
+    }
+}
+@media (max-width: 320px)
+{
+    .desktop{
+        display: none !important;
+    }
+    .mobile {
+        display: block;
+    }
+    .background{
+        background-color: orange;
+        padding: 20px;
+        height: auto;
+    }
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: end !important;
+    align-items: center;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar-inicio{
+    border: 1px solid rgb(133, 91, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 300px;
+    border-radius: 50%;
+}
+.avatar1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 300px;
+    border-radius: 50%;
+}
+.Avatar-master{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.distance{
+    align-items: center;
+    margin: 0px 10px ;
+    padding: 10px 25px;
+}
+.distance-pg2{
+    align-items: flex-start;
+    margin: 0px 10px ;
+    padding: 10px 25px;
+}
+@media (max-width: 480px)
+{
+    .distance{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media (max-width: 800px)
+{
+    .distance{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*--------------------------------------------------BOTOES PAGE1--------------------------------------------------------------------------------*/
+.align-botoes{
+    display: flex;
+    flex-direction: row;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.btn4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.buttto-check{
+    background-color: rgb(0, 0, 0);
+    color: rgb(206, 202, 202);
+    height: 50px !important;
+    width: 200px !important;
+    border-radius: 15px;
+}
+
+@media (max-width: 480px)
+{
+  .Avatar-master{
+    display: flex !important;
+    flex-direction: column !important;
+   }
+}
+@media (max-width: 800px)
+{
+  .Avatar-master{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+   }
+}
