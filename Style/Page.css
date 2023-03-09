@@ -1,9 +1,4 @@
 /*-------------------------------------------------INICIO BACKGROUND------------------------------------------------------------------------------------*/
-.logo-name{
-    width: 50px;
-    margin: 10px;
-}
-
 .background{
     background-color: orange;
     height: 100vh;
@@ -59,6 +54,23 @@
     .logo-name{
         width: 50px;
     }
+    .avatar1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 150px !important;
+        border-radius: 50%;
+    }
+    .avatar-inicio{
+        border: 1px solid rgb(133, 91, 13);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 150px !important;
+        border-radius: 50%;
+    }
 
 }
 @media (max-width: 480px)
@@ -77,6 +89,23 @@
     .logo-name{
         width: 50px;
     }
+    .avatar1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 150px !important;
+        border-radius: 50%;
+    }
+    .avatar-inicio{
+        border: 1px solid rgb(133, 91, 13);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 150px !important;
+        border-radius: 50%;
+    }
 }
 @media (max-width: 320px)
 {
@@ -93,6 +122,23 @@
     }
     .logo-name{
         width: 50px;
+    }
+    .avatar1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 150px !important;
+        border-radius: 50%;
+    }
+    .avatar-inicio{
+        border: 1px solid rgb(133, 91, 13);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 150px !important;
+        border-radius: 50%;
     }
 }
 
