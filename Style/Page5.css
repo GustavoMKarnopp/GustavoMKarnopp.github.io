@@ -282,6 +282,14 @@
         perspective: 1000px;
         overflow: hidden;
     }
+    .report_client{
+        padding: 15px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: orange;
+    }
 }
 @media (max-width: 320px)
 {
@@ -320,5 +328,13 @@
         min-height: 450px;
         perspective: 1000px;
         overflow: hidden;
+    }
+    .report_client{
+        padding: 15px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: orange;
     }
 }
