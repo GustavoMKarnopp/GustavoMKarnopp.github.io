@@ -106,6 +106,13 @@
         width: 150px !important;
         border-radius: 50%;
     }
+    .distance-pg2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 10px ;
+        padding: 10px 25px;
+    }
 }
 @media (max-width: 320px)
 {
@@ -139,6 +146,13 @@
         height: auto;
         width: 150px !important;
         border-radius: 50%;
+    }
+    .distance-pg2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 10px ;
+        padding: 10px 25px;
     }
 }
 
