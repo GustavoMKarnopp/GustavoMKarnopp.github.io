@@ -1,7 +1,6 @@
 
 let dados
 window.onload = function () { 
-    // var CountCards = 1;
     var CountCard = 1;
     var CountContent = 1;
     var CountIMG = 1;
@@ -103,7 +102,7 @@ window.onload = function () {
 
             var i = document.getElementById(`link-twitter-${item.id}`)
             var ii = document.createElement("i")
-            ii.setAttribute("class", "fab fa-instagram")
+            ii.setAttribute("class", "fab fa-linkedin")
             i.appendChild(ii);                
             CountITwitter++;
 
