@@ -1,4 +1,7 @@
 /*-------------------------------------------------INICIO BACKGROUND------------------------------------------------------------------------------------*/
+.card-testimonial{
+    width: 100%;
+}
 .background{
     background-color: orange;
     height: 100vh;
