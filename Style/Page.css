@@ -3,7 +3,11 @@
     width: 100%;
 }
 .background{
-    background-color: orange;
+    background-image: url('../Img/banners/cover-image\ \(16\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: orange; */
     height: 100vh;
 }
 

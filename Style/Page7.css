@@ -1,6 +1,9 @@
 
 .footer{ 
-
+    background-image: url('../Img//banners/cover-image\ \(16\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-color: orange;
     padding: 25px;
     border-radius: 8px;

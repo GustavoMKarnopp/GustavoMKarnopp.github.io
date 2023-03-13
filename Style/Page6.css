@@ -4,7 +4,10 @@
     justify-content: center;
 }
 .card-form{ 
-
+    background-image: url('../Img/banners/cover-image\ \(14\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     width: 75%;
     background-color: orange;
     padding: 25px;
