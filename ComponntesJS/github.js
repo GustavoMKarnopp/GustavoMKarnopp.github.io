@@ -1,4 +1,3 @@
-
 let dados
 window.onload = function () { 
     var CountCard = 1;
@@ -19,6 +18,7 @@ window.onload = function () {
 
     if(localStorage.getItem('data')){            
         var data = localStorage.getItem('data');
+        console.log(data)
         dados = JSON.parse(data)
     }
     for (var item of dados) {
@@ -133,17 +133,46 @@ window.onload = function () {
             ii.setAttribute("class", "fab fa-youtube")
             i.appendChild(ii);                
             CountIYoutube++;
-
-
-
-
-            
-            
-            
         }
-
-        
     }
-    // return console.log(dados)
 } 
 
+
+
+const BASE_URL = 'https://api-comentarios.herokuapp.com/comentarios';
+
+function setMensagem(){
+            let name = document.getElementById("exampleFormControlInput1").value;
+            let jobs = document.getElementById("exampleFormControlInput6").value;
+            let face = document.getElementById("exampleFormControlInput2").value;
+            let linkedin = document.getElementById("exampleFormControlInput3").value;
+            let insta = document.getElementById("exampleFormControlInput4").value;
+            let github = document.getElementById("exampleFormControlInput5").value;
+        
+        const data = {
+            id:           "",
+            name:         name,
+            jobs:         jobs,
+            photo:        "",
+            description:  "",
+            facebook:     face,
+            linkedin:     linkedin,
+            instagram:    insta,
+            github:       github
+        };
+
+    fetch(BASE_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+            body: JSON.stringify(data)
+        })
+        .then((resp) => resp.json())
+        .then(function(data) {
+            console.log(data);
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+    }
