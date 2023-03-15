@@ -4,12 +4,24 @@ const BASE_URL = 'https://api-comentarios.herokuapp.com/comentarios';
 fetch(BASE_URL)
 .then((resp) => resp.json())
 .then(function(data) {
-  console.log(data)
+  // console.log(data)
     localStorage.setItem('data', JSON.stringify(data));
 })
 .catch(function(error) {
   console.log(error);
 });  
+
+// const BASE_GIT = 'https://api.github.com';
+    
+//     fetch(BASE_GIT)
+//     .then((resp) => resp.json())
+//     .then(function(data) {
+//       console.log(data.user_url, 'data')
+//       localStorage.setItem('gitHub', JSON.stringify(data));
+//     })
+//     .catch(function(error) {
+//       console.log(error);
+//     });
 
 // function setMensagem(params){
 //   const data = {
