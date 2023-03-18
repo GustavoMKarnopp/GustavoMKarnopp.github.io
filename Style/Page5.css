@@ -275,6 +275,14 @@ a{
 input[type="radio"]{
   display: none;
 }
+.hrefLink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
 @media (max-width: 1200px) {
   .main-card .cards .card{
     /* margin: 20px 0 10px 0; */
