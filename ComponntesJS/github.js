@@ -152,38 +152,9 @@ function getAmigos(amigues){
     })
 
 }
-
 function montaAmigos(amigos){
   console.log(amigos.length < 2)
-        if(amigos.length > 2){
 
-          var select = document.createElement("select");
-          select.name = "amigos";
-          select.id = "amigos "
-
-
-          amigos.forEach(element => {
-              // return console.log(element,'element')
-                  
-
-                  var option = document.createElement("option");
-                  option.value = element.login;
-                  option.text = element.login
-                  option.id = element.login
-                  select.appendChild(option);
-
-                 
-            
-          });
-          // for (const val of values){
-          // }
-
-          var label = document.createElement("label");
-          label.innerHTML = "Choose your pets: "
-          label.htmlFor = "pets";
-
-          document.getElementById("container").appendChild(label).appendChild(select);
-        }else{
           
           var card22 = document.getElementById("card22")
           var div = document.createElement("div")
@@ -249,7 +220,6 @@ function montaAmigos(amigos){
             name.setAttribute("class", "name22")
             name22.appendChild(name);
           });
-        }
 
 
 
