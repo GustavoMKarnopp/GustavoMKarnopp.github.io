@@ -75,46 +75,49 @@ function montaComntent(value){
           div.setAttribute("class", "bio")
           div.setAttribute("id", "bio")
           textp.appendChild(div);
-  
+          
           var textp = document.getElementById("bio")
           var small = document.createElement("small")
-          var texto = document.createTextNode("Biografia:")
+          var texto = document.createTextNode("BIOGRAFIA:")
+          small.setAttribute("class", "nameh5")
           small.appendChild(texto);
           textp.appendChild(small);
-  
+          
           var textp = document.getElementById("bio")
           var p = document.createElement("p")
           var texto = document.createTextNode(`${value.bio}`)
           p.appendChild(texto);
           textp.appendChild(p);
-  
+          
           var textp = document.getElementById("text-p")
           var div = document.createElement("div")
           div.setAttribute("class", "datas")
           div.setAttribute("id", "datas")
           textp.appendChild(div);
-  
+          
           var textp = document.getElementById("datas")
           var small = document.createElement("small")
-          var texto = document.createTextNode("Membro desde:")
+          var texto = document.createTextNode("MEMBRO DESDE:")
+          small.setAttribute("class", "nameh5")
           small.appendChild(texto);
           textp.appendChild(small);
-  
+          
           var textp = document.getElementById("datas")
           var p = document.createElement("p")
           var texto = document.createTextNode(`${value.created_at}`)
           p.appendChild(texto);
           textp.appendChild(p);
-  
+          
           var textp = document.getElementById("text-p")
           var div = document.createElement("div")
           div.setAttribute("class", "email")
           div.setAttribute("id", "email")
           textp.appendChild(div);
-  
+          
           var textp = document.getElementById("email")
           var small = document.createElement("small")
-          var texto = document.createTextNode("Redes:")
+          var texto = document.createTextNode("REDES:")
+          small.setAttribute("class", "nameh5")
           small.appendChild(texto);
           textp.appendChild(small);
   
@@ -152,8 +155,9 @@ function montaAmigos(amigos){
           content33.appendChild(div);
   
           var textp = document.getElementById("content33")
-          var h5 = document.createElement("h5")
-          var texto = document.createTextNode("Seguidores(as)")
+          var h5 = document.createElement("small")
+          h5.setAttribute("class", "nameh5")
+          var texto = document.createTextNode("MEUS SEGUIDORES")
           h5.appendChild(texto);
           textp.appendChild(h5);
   
