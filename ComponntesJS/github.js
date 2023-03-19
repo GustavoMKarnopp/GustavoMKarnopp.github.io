@@ -6,14 +6,6 @@ function perquisaGit(){
     .then(res =>{
       if(res.data){
         let dados = res.data
-        let jsonStringDados = JSON.stringify(res.data)
-        
-        sessionStorage.setItem('dads', jsonStringDados);
-        let value =sessionStorage.getItem('dads')
-        var obj = JSON.parse(value)
-
-        console.log(obj,'obj')
-          console.log('entrou aqui')
           this.clearBox()
           this.montaComntent(dados)
           this.getAmigos(dados)
@@ -27,7 +19,6 @@ function clearBox() {
   }
 }
 function montaComntent(value){
-        console.log(value, 'CHAMA')
             
           var cards22 = document.getElementById("cards22")
           var div = document.createElement("div")
@@ -136,25 +127,17 @@ function montaComntent(value){
 }
 
 function getAmigos(amigues){
-  console.log(amigues.followers_url, 'amigues')
   axios.get(amigues.followers_url)
     .then(res =>{
       if(res.data){
         let amigos = res.data 
         this.montaAmigos(amigos)
-        // for(amigos in amz){
-        //   console.log(amigos)
-        //   console.log('entrou aqui amigos')
-        //   // this.clearBox()
-        // }
-        
+
       }
     })
 
 }
 function montaAmigos(amigos){
-  console.log(amigos.length < 2)
-
           
           var card22 = document.getElementById("card22")
           var div = document.createElement("div")
