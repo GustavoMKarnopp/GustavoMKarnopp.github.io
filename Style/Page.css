@@ -10,7 +10,12 @@
     /* background-color: orange; */
     height: 100vh;
 }
-
+.nav-link:focus, .nav-link:hover {
+    color: orange !important;
+}
+.nav-link{
+    color: black !important;
+}
 .mobile{
     display: none;
 }
@@ -276,6 +281,7 @@
     height: 50px !important;
     width: 200px !important;
     border-radius: 15px;
+    padding: 10px 20px;
 }
 
 @media (max-width: 480px)

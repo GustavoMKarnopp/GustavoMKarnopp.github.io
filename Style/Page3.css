@@ -7,6 +7,13 @@
 .accordion-button{
     font-weight: bold;
 }
+.accordion-button:not(.collapsed){
+    background-color: #f79904 !important;
+    color: #dfe3e8 !important;
+}
+/* .accordion-button:not(.collapsed)::after{
+    background-color: #dfe3e8 !important;
+} */
 .backgroundWhatDo{
     background-image: url('../Img/banners1/cover-image-2.png');
     background-size: cover;
