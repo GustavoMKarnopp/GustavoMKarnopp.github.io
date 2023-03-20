@@ -768,27 +768,35 @@
               </div>
               <div class="widh" style="width: 100%; margin: 5px;">
                 <div class="card-form">
-                  <form class="">
+                  <form method="POST" action="https://formsubmit.co/evolve.kweb@gmail.com" enctype="multipart/form-data" class="">
                     <div class="inputs-row">
                       <div class="mb-3 input1">
                         <label for="exampleFormControlInput1" class="form-label">Seu nome</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Gustavo Karnopp">
+                        <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Gustavo Karnopp">
                       </div>
                       <div class="mb-3 input2">
                         <label for="exampleFormControlInput1" class="form-label">Seu melhor e-mail</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@examplo.com">
+                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@examplo.com">
                       </div>
                     </div>
                     <div class="mb-3">
                       <label for="exampleFormControlInput1" class="form-label">Assunto</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titulo da mensagem">
+                      <input type="text" name="_subject" value="" class="form-control" id="exampleFormControlInput1" placeholder="Titulo da mensagem">
+                    </div>
+                    <div class="mb-3">
+                      <input type="hidden" name="_captcha" value="false">
+                      <input type="hidden" name="_blacklist" value="padrão de spam, termo banido, frase">
+                      <input type="text" name="_honey" style="display:none">
+                      <input type="hidden" name="_autoresponse" value="Obrigado pelo contato, lhe retorno assim que possível, esta é uma mensagem automática!">
+                      <input type="hidden" name="_next" value="http://127.0.0.1:5500/src/agradecimento.html">
+                      <!-- <input type="hidden" name="_webhook" value="https://yourdomain.co/your-webhook"> -->
                     </div>
                     <div class="mb-3">
                       <label for="exampleFormControlTextarea1" class="form-label">Escreva sua mensagem</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div class="mb-3 btnnn" >
-                      <button type="button" class="dar-opiniao" data-bs-toggle="modal" data-bs-target="#staticBackdrop"type="submit">ENVIAR</button>
+                      <button type="submit" class="dar-opiniao" data-bs-toggle="modal" data-bs-target="#staticBackdrop">ENVIAR</button>
                     </div>
                   </form>
                 </div>
