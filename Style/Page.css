@@ -2,6 +2,10 @@
 .card-testimonial{
     width: 100%;
 }
+.form-label{
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}
 .background{
     background-image: url('../Img/banners/cover-image-16.png');
     background-size: cover;
