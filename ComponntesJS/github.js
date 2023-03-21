@@ -1,5 +1,6 @@
 
 
+
 function perquisaGit(){
     let nameUser = document.getElementById('perquisagit').value
     axios.get(`https://api.github.com/users/${nameUser}`)
@@ -19,7 +20,6 @@ function clearBox() {
   }
 }
 function montaComntent(value){
-            
           var cards22 = document.getElementById("cards22")
           var div = document.createElement("div")
           div.setAttribute("class", "card22")
@@ -104,7 +104,10 @@ function montaComntent(value){
           
           var textp = document.getElementById("datas")
           var p = document.createElement("p")
-          var texto = document.createTextNode(`${value.created_at}`)
+          moment.locale('pt');
+          const data = moment(value.created_at).format('DD/MM/YYYY');
+          console.log(data)
+          var texto = document.createTextNode(data)
           p.appendChild(texto);
           textp.appendChild(p);
           
